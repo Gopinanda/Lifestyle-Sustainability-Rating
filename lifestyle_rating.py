@@ -5,7 +5,6 @@ import pandas as pd
 model = pickle.load(open(r"Sustainability_rating.pkl",'rb'))
 
 st.image("innomatics-research-labs-logo-squared.png")
-st.image("sustainability_logo.jpg",width=400)
 st.title("Lifestyle Sustainability Rating")
 
 numerical_features = ['Age', 'HomeSize', "MonthlyElectricityConsumption", "MonthlyWaterConsumption"]  
